@@ -1,167 +1,451 @@
-<!doctype html>
-<html lang="en-us">
+<!DOCTYPE html>
+<html class="no-js" lang="zxx">
 
-    <head>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>FanFolium - Stocks &amp; Crypto Games</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.svg" />
 
-        <!-- Meta -->
-        <meta charset="utf-8">
-        <meta http-equiv="x-ua-compatible" content="ie=edge">
-        <meta name="viewport" content="width=device-width,initial-scale=1">
+    <!-- ========================= CSS here ========================= -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/css/LineIcons.2.0.css" />
+    <link rel="stylesheet" href="assets/css/animate.css" />
+    <link rel="stylesheet" href="assets/css/tiny-slider.css" />
+    <link rel="stylesheet" href="assets/css/glightbox.min.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
 
-        <title>FanFolium</title>
-        <meta name="description" content="">
+</head>
 
-        <!-- The compiled CSS file -->
-        <link rel="stylesheet" href="css/production.css">
+<body>
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
 
-        <!-- Web fonts -->
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700|Source+Serif+Pro:700" rel="stylesheet"> 
-
-        <!-- favicon.ico. Place these in the root directory. -->
-        <link rel="shortcut icon" href="favicon.ico">
-
-    </head>
-
-    <body class="has-animations">
-
-
-    <!-- Header -->
-    <header class="align--center pt3">
-        <div class="container--lg border--bottom pb3">
-            <img class="logo mb3 reveal-on-scroll is-revealing" src="img/fanfoliumlogo.jpg" alt="Carta" width="70%">
-            <h1 class="mb2">A new take on investing&nbsp;smartly.</h1>
-            <br><br>
-            <p>Releasing Soon on</p>
-            <span>
-                <a href="https://www.apple.com/ios/app-store/" class="link"><img class="download" src="img/ios.png" alt="Download on the App Store"></a>
-            </span>
-            <span>
-                <a href="https://play.google.com/store" class="link"><img class="download" src="img/googleplay.png" alt="Download on Google Play"></a>
-            </span>
-        </div>
-    </header>
-
-    <main>
-
-        <!-- Feature list -->
-        <div class="container pt3 mt2 text--gray align--center">
-            <H3 class="mb3">The best way to make money from the stock market</H3>
-            <div class="grid-row">
-                <div class="grid-column span-one-third mb3 reveal-on-scroll is-revealing">
-                    <img class="illustration--small mb1" src="img/assign.svg" alt="Multiple Game Styles">
-                    <p>Multiple Game Styles</p>
-                </div>
-                <div class="grid-column span-one-third mb3 reveal-on-scroll is-revealing">
-                    <img class="illustration--small mb1" src="img/connected.svg" alt="LIVE Leaderboard">
-                    <p>LIVE Leaderboard</p>
-                </div>
-                <div class="grid-column span-one-third mb3 reveal-on-scroll is-revealing">
-                    <img class="illustration--small mb1" src="img/search.svg" alt="Instant Credits & Withdrawals">
-                    <p>Learn while you Earn</p>
-                </div>
-                <div class="grid-column span-one-third mb3 reveal-on-scroll is-revealing">
-                    <img class="illustration--small mb1" src="img/vault.svg" alt="Safe & Secure">
-                    <p>Safe & Secure</p>
-                </div>
-                <div class="grid-column span-one-third mb3 reveal-on-scroll is-revealing">
-                    <img class="illustration--small mb1" src="img/messaging.svg" alt="Private Leagues">
-                    <p>Private Leagues</p>
-                </div>
-                <div class="grid-column span-one-third mb3 reveal-on-scroll is-revealing">
-                    <img class="illustration--small mb1" src="img/mail.svg" alt="Instant Credits & Withdrawals">
-                    <p>Instant Credits & Withdrawals</p>
-                </div>
+    <!-- Preloader -->
+    <div class="preloader">
+        <div class="preloader-inner">
+            <div class="preloader-icon">
+                <span></span>
+                <span></span>
             </div>
         </div>
+    </div>
+    <!-- /End Preloader -->
 
-        <!-- Focus -->
-        <div class="container--lg pt1 pb1">
-
-            <div class="grid-row grid-row--center">
-                <div class="grid-column mt3 mb2 order-2">
-                    <div class="border--bottom pb2 mb2">
-                        <h2>Real Data, Real Winnings</h2>
-                        <p>Create your dream portfolio of stocks from the NSE options based on the real-time data.</p>
-                    </div>
-                    <p class="italic text--gray mb1">It’s fun and I can actually make great money, simply playing games, all day.</p>
-                    <p> <span class="bold">Suresh Agarwal</span>, Financial Analyst and Trader</p>
-                </div>
-                <div class="grid-column span-1"></div>
-                <div class="grid-column mt3 mb2 order-1 reveal-on-scroll is-revealing">
-                    <img src="img/data.svg" alt="Usage data">
-                </div>
-            </div>
-
-            <div class="grid-row grid-row--center">
-                <div class="grid-column mt3 mb2 reveal-on-scroll is-revealing">
-                    <img src="img/security.svg" alt="Absolute security">
-                </div>
-                <div class="grid-column span-1"></div>
-                <div class="grid-column mt3 mb2">
-                    <div class="border--bottom pb2 mb2">
-                        <h2>Absolute Safe & Trusted</h2>
-                        <p>We use NSE authorized providers to fetch all data through a secured connection. Your personal information, participation and winnings related data is store in an encrypted storage. </p>
-                    </div>
-                    <p class="italic text--gray mb1">Fanfolium is helping me understand my own patterns without much risk.</p>
-                    <p> <span class="bold">Nitesh Madhavi</span>, Stock Trader & Consultant</p>
-                </div>
-            </div>
-
-        </div>
-
-        <!-- Mentioned -->
-        <!-- <div class="container--lg pt3 pb3 mb2 align--center">
-            <p class="mb2">Mentioned in</p>
-            <span><img class="mentioned" src="img/mentioned.svg" alt="New York Times, TC, Product Hunt, Recode"></span>
-        </div> -->
-
-        <!-- CTA -->
-        <div class="bg--dark-gray align--center pt3 pb3">
-            <div class="container pt2 pb2">
-                <img class="cta-image mb2 reveal-on-scroll is-revealing" src="img/text.svg" alt="Text the app">
-                <p class="h3 text--white mb1 bold">We'll text you the&nbsp;app</p>
-                <p class="text--white mb3">Just insert your number below. Messaging rates&nbsp;apply.</p>
-                <div class="inline-block mr1 no-mr-on-mobile" style="width:280px;max-width:100%">
-                    <input class="form-control" type="tel" placeholder="Phone number">
-                </div>
-                <button class="btn btn--secondary">Send</button>
-            </div>
-        </div>
-
-    </main>
-
-    <!-- Footer -->
-    <footer class="pt1 pb3 align--center-on-mobile">
+    <!-- Start Header Area -->
+    <header class="header navbar-area">
         <div class="container">
-            <div class="grid-row">
-                <div class="grid-column mt2 span-half">
-                    <div class="mb1">
-                        <span>
-                            <a href="https://www.apple.com/ios/app-store/" class="link"><img class="download" src="img/ios.png" alt="Download on the App Store"></a>
-                        </span>
-                        <span>
-                            <a href="https://play.google.com/store" class="link"><img class="download" src="img/googleplay.png" alt="Download on Google Play"></a>
-                        </span>
+            <div class="row align-items-center">
+                <div class="col-lg-12">
+                    <div class="nav-inner">
+                        <!-- Start Navbar -->
+                        <nav class="navbar navbar-expand-lg">
+                            <a class="navbar-brand" href="index.html">
+                                <img src="assets/images/logo/fanfolium-logo.png" alt="Logo">
+                            </a>
+                            <button class="navbar-toggler mobile-menu-btn" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                                <span class="toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse sub-menu-bar" id="navbarSupportedContent">
+                                <ul id="nav" class="navbar-nav ms-auto">
+                                    <li class="nav-item">
+                                        <a href="#home" class="page-scroll active"
+                                            aria-label="Toggle navigation">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#features" class="page-scroll"
+                                            aria-label="Toggle navigation">Features</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#howtoplay" aria-label="Toggle navigation">How to Play</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="#pricing" class="page-scroll"
+                                            aria-label="Toggle navigation">Pricing</a>
+                                    </li>
+                                    <!-- <li class="nav-item">
+                                        <a href="javascript:void(0)" aria-label="Toggle navigation">Team</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="dd-menu collapsed" href="javascript:void(0)" data-bs-toggle="collapse"
+                                            data-bs-target="#submenu-1-4" aria-controls="navbarSupportedContent"
+                                            aria-expanded="false" aria-label="Toggle navigation">Blog</a>
+                                        <ul class="sub-menu collapse" id="submenu-1-4">
+                                            <li class="nav-item"><a href="javascript:void(0)">Blog Grid Sidebar</a>
+                                            </li>
+                                            <li class="nav-item"><a href="javascript:void(0)">Blog Single</a></li>
+                                            <li class="nav-item"><a href="javascript:void(0)">Blog Single
+                                                    Sibebar</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a href="javascript:void(0)" aria-label="Toggle navigation">Contact</a>
+                                    </li> -->
+                                </ul>
+                            </div> <!-- navbar collapse -->
+                            <div class="button add-list-button">
+                                <a href="https://beta.fanfolium.com" class="btn">Play Now!</a>
+                            </div>
+                        </nav>
+                        <!-- End Navbar -->
                     </div>
-                    <p class="small">Designed by <a href="https://nightlab.tech" class="link link--text">Night Lab Tech</a>. Illustrations from&nbsp;<a href="https://undraw.co/" class="link link--text">Undraw</a>.</p>
                 </div>
-                <div class="grid-column mt2 span-half align--right align--center-on-mobile">
-                    <ul class="no-bullets list--inline">
-                        <li class="mr1"><a href="" class="link"><img class="icon" src="img/youtube.svg" alt="YouTube"></a></li>
-                        <li class="mr1"><a href="" class="link"><img class="icon" src="img/twitter.svg" alt="Twitter"></a></li>
-                        <li><a href="" class="link"><img class="icon" src="img/facebook.svg" alt="Facebook"></a></li>
-                    </ul>
+            </div> <!-- row -->
+        </div> <!-- container -->
+    </header>
+    <!-- End Header Area -->
+
+    <!-- Start Hero Area -->
+    <section id="home" class="hero-area">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-5 col-md-12 col-12">
+                    <div class="hero-content">
+                        <h1 class="wow fadeInLeft" data-wow-delay=".4s">Learning Stocks &amp; Crypto was never <span style="font-weight: 500; font-style: italic; text-transform: none; text-shadow: 5px 0px 3px rgba(0, 0, 0, 0.2);">soo much fun!</span></h1>
+                        <p class="wow fadeInLeft" data-wow-delay=".6s">“ 
+                            FanFolium has the best games for Stock Market 
+                            & Crypto. And I love earning prizes without even
+                            having a demat account. "</p>
+                        <div class="button wow fadeInLeft" data-wow-delay=".8s">
+                            <a href="javascript:void(0)" class="btn"><i class="lni lni-apple"></i> App Store</a>
+                            <a href="javascript:void(0)" class="btn btn-alt"><i class="lni lni-play-store"></i> Google
+                                Play</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12 col-12">
+                    <div class="hero-image wow fadeInRight" data-wow-delay=".4s">
+                        <img src="assets/images/hero/app-live-game.png" alt="#">
+                    </div>
                 </div>
             </div>
         </div>
+    </section>
+    <!-- End Hero Area -->
+
+    <!-- Start Features Area -->
+    <section id="features" class="features section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h3 class="wow zoomIn" data-wow-delay=".2s">Features</h3>
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">Why FanFolium?</h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s"></p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Feature -->
+                    <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
+                        <i class="lni lni-cloud-upload"></i>
+                        <h3>Trade or Game?</h3>
+                        <p>A unique blend of both, different from any so far in the market.</p>
+                    </div>
+                    <!-- End Single Feature -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Feature -->
+                    <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
+                        <i class="lni lni-lock"></i>
+                        <h3>Calculated Risks</h3>
+                        <p>Unlike the real markets, the risks are only as big as the pool fees.</p>
+                    </div>
+                    <!-- End Single Feature -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Feature -->
+                    <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
+                        <i class="lni lni-reload"></i>
+                        <h3>Paper Trading or Real trading?</h3>
+                        <p>A bridge to gradually move from paper trades into real trades.</p>
+                    </div>
+                    <!-- End Single Feature -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Feature -->
+                    <div class="single-feature wow fadeInUp" data-wow-delay=".2s">
+                        <i class="lni lni-shield"></i>
+                        <h3>Flexible Portfolio Games</h3>
+                        <p>Unlike every other portfolio games out there, one can actually manage one’s portfolio in live games.</p>
+                    </div>
+                    <!-- End Single Feature -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Feature -->
+                    <div class="single-feature wow fadeInUp" data-wow-delay=".4s">
+                        <i class="lni lni-cog"></i>
+                        <h3>Time-dependent Indices Games</h3>
+                        <p>First to bring rewards varying with time and market conditions</p>
+                    </div>
+                    <!-- End Single Feature -->
+                </div>
+                <div class="col-lg-4 col-md-6 col-12">
+                    <!-- Start Single Feature -->
+                    <div class="single-feature wow fadeInUp" data-wow-delay=".6s">
+                        <i class="lni lni-layers"></i>
+                        <h3>Anytime Withdrawal</h3>
+                        <p>Your money is not blocked. Withdraw it anytime you want.</p>
+                    </div>
+                    <!-- End Single Feature -->
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Features Area -->
+
+    <!-- Start Achievement Area -->
+    <section class="our-achievement section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-10 offset-lg-1 col-md-12 col-12">
+                    <div class="title">
+                        <h2>What is Fanfolium?</h2>
+                        <p>Fanfolium is a bridge that helps novice starters turn into actual traders.
+                            <br><br>
+                            Our Purpose: To shield you from direct exposure to stocks, crypto and indices. Our games will give you an idea of where you stand as a trader without you having to take humongous losses directly in the financial markets.
+                            <br><br>
+                            Our Endgame: To witness a world where people don’t enter into the traps of financial markets but don’t stop experiencing the thrill of it either.
+                            </p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-12 col-12">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="single-achievement wow fadeInUp" data-wow-delay=".2s">
+                                <h3 class="counter"><span id="secondo1" class="countup" cup-end="100">100</span>%</h3>
+                                <p>satisfaction</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="single-achievement wow fadeInUp" data-wow-delay=".4s">
+                                <h3 class="counter"><span id="secondo2" class="countup" cup-end="25">25</span>+</h3>
+                                <p>Weekly Games</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4 col-12">
+                            <div class="single-achievement wow fadeInUp" data-wow-delay=".6s">
+                                <h3 class="counter"><span id="secondo3" class="countup" cup-end="125">₹ 1,25,000</span>+</h3>
+                                <p>Winnings</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Achievement Area -->
+
+    <!-- Start Pricing Table Area -->
+    <section id="howtoplay" class="pricing-table section">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-title">
+                        <h3 class="wow zoomIn" data-wow-delay=".2s">Instructions</h3>
+                        <h2 class="wow fadeInUp" data-wow-delay=".4s">How to Play</h2>
+                        <p class="wow fadeInUp" data-wow-delay=".6s">Multiple game styles, both free and paid games.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Single Table -->
+                    <div class="single-table wow fadeInUp" data-wow-delay=".2s">
+                        <!-- Table Head -->
+                        <div class="table-head">
+                            <h4 class="title">Signup</h4>
+                            <p>Sign-up to see the available games.</p>
+                        </div>
+                        <!-- End Table Head -->
+                        <!-- End Table Content -->
+                    </div>
+                    <!-- End Single Table-->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Single Table -->
+                    <div class="single-table wow fadeInUp" data-wow-delay=".2s">
+                        <!-- Table Head -->
+                        <div class="table-head">
+                            <h4 class="title">Pick a Game</h4>
+                            <p>Pick either a solo game or a pool game or both to play.</p>
+                        </div>
+                        <!-- End Table Head -->
+                        <!-- End Table Content -->
+                    </div>
+                    <!-- End Single Table-->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Single Table -->
+                    <div class="single-table wow fadeInUp" data-wow-delay=".2s">
+                        <!-- Table Head -->
+                        <div class="table-head">
+                            <h4 class="title">Make Your Predictions</h4>
+                            <p>Make a prediction about the day's closing in solo. Make a portfolio and manage it for the duration of the game in pools.</p>
+                        </div>
+                        <!-- End Table Head -->
+                        <!-- End Table Content -->
+                    </div>
+                    <!-- End Single Table-->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Single Table -->
+                    <div class="single-table wow fadeInUp" data-wow-delay=".2s">
+                        <!-- Table Head -->
+                        <div class="table-head">
+                            <h4 class="title">Win Prizes!</h4>
+                            <p>End the day either with rewards or with experience or both.</p>
+                        </div>
+                        <!-- End Table Head -->
+                        <!-- End Table Content -->
+                    </div>
+                    <!-- End Single Table-->
+                </div>
+                <div class="col-lg-3 col-md-6 col-12">
+                    <!-- Single Table -->
+                    <div class="single-table wow fadeInUp" data-wow-delay=".2s">
+                        <!-- Table Head -->
+                        <div class="table-head">
+                            <h4 class="title">Celebrate &amp; Share</h4>
+                            <p>Be a happy customer and share your experience.Invite family and friends to Fanfolium.</p>
+                        </div>
+                        <!-- End Table Head -->
+                        <!-- End Table Content -->
+                    </div>
+                    <!-- End Single Table-->
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    <!--/ End Pricing Table Area -->
+
+    <!-- Start Call To Action Area -->
+    <section id="pricing" class="section call-action">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-12 col-12">
+                    <div class="cta-content">
+                        <h2 class="wow fadeInUp" data-wow-delay=".2s">Pricing &amp; Charges
+                        </h2>
+                        <p class="wow fadeInUp" data-wow-delay=".4s">
+                            <ul style="color: aliceblue; font-size: 1.4rem; font-weight: 500;">
+                                <li>✅ No hidden charges except the joining fees of the games.</li>
+                                <li>✅ Win up to 40 times the entry fees in solo indices games.</li>
+                                <li>✅ No limits on winning in pools. The bigger the pool, the greater are the winnings.</li>
+                            </ul>
+                        </p>
+                        <div class="button wow fadeInUp" data-wow-delay=".6s">
+                            <a href="https://beta.fanfolium.com" class="btn">Play Now</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Call To Action Area -->
+
+    <!-- Start Footer Area -->
+    <footer class="footer">
+        <!-- Start Footer Top -->
+        <div class="footer-top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-12">
+                        <!-- Single Widget -->
+                        <div class="single-footer f-about">
+                            <div class="logo" style="margin-bottom: 5px;">
+                                <a href="index.html">
+                                    <img src="assets/images/logo/fanfolium-logo.png" alt="#">
+                                </a>
+                            </div>
+                            <h4 style="color: #fff;">Fanfolium Services Private Limited.</h4>
+                            <p>Nawada, Bihar, India - 805110</p>
+                            <ul class="social">
+                                <li><a href="javascript:void(0)"><i class="lni lni-facebook-filled"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="lni lni-twitter-original"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="lni lni-instagram"></i></a></li>
+                                <li><a href="javascript:void(0)"><i class="lni lni-linkedin-original"></i></a></li>
+                            </ul>
+                            <p class="copyright-text">Designed and Developed by <a href="https://nightlab.tech/"
+                                    rel="nofollow" target="_blank">Night Lab Tech</a>
+                            </p>
+                        </div>
+                        <!-- End Single Widget -->
+                    </div>
+                    <div class="col-lg-8 col-md-8 col-12">
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <!-- Single Widget -->
+                                <div class="single-footer f-link">
+                                    <h3>Links</h3>
+                                    <ul>
+                                        <li><a href="javascript:void(0)">About Us</a></li>
+                                        <li><a href="javascript:void(0)">How to Play</a></li>
+                                        <li><a href="javascript:void(0)">Contact Us</a></li>
+                                    </ul>
+                                </div>
+                                <!-- End Single Widget -->
+                            </div>
+                            <div class="col-lg-6 col-md-6 col-12">
+                                <!-- Single Widget -->
+                                <div class="single-footer f-link">
+                                    <h3>Legal</h3>
+                                    <ul>
+                                        <li><a href="javascript:void(0)">Terms & Conditions</a></li>
+                                        <li><a href="javascript:void(0)">Privacy Policy</a></li>
+                                        <li><a href="javascript:void(0)">Refund Policy</a></li>
+                                    </ul>
+                                </div>
+                                <!-- End Single Widget -->
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--/ End Footer Top -->
     </footer>
+    <!--/ End Footer Area -->
 
-    <!-- Scroll reveal -->
-    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+    <!-- ========================= scroll-top ========================= -->
+    <a href="#" class="scroll-top">
+        <i class="lni lni-chevron-up"></i>
+    </a>
 
-    <!-- The compiled JavaScript file -->
-    <script src="js/production.js"></script>
+    <!-- ========================= JS here ========================= -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/wow.min.js"></script>
+    <script src="assets/js/tiny-slider.js"></script>
+    <script src="assets/js/glightbox.min.js"></script>
+    <script src="assets/js/count-up.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script type="text/javascript">
 
-    </body>
+        //====== counter up 
+        var cu = new counterUp({
+            start: 0,
+            duration: 2000,
+            intvalues: true,
+            interval: 100,
+            append: " ",
+        });
+        cu.start();
+    </script>
+</body>
+
 </html>
-
