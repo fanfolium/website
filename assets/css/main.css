@@ -4,8 +4,9 @@
 /*======================================
     Normalize CSS
 ========================================*/
-@import url("https://fonts.googleapis.com/css2?family=Kurale&display=swap");
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+/* @import url("https://fonts.googleapis.com/css2?family=Kurale&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap'); */
 
 html {
   scroll-behavior: smooth;
@@ -1633,6 +1634,14 @@ ol {
   color: #C98B2E;
 }
 
+/* Import the Poppins font */
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+.header .navbar-brand span{
+  font-family: "Poppins";
+  font-weight: 600;
+}
+
 .header .navbar-brand img {
   width: 70px;
 }
@@ -2459,6 +2468,33 @@ ol {
   position: absolute;
   left: 0;
   top: 4px;
+}
+
+/*======================================
+    FAQ Section CSS
+========================================*/
+#faq {
+  background-color: #f7f7f7; /* Light gray background for contrast */
+}
+
+.custom-accordion-item .accordion-button:not(.collapsed) {
+  background-color: #387160; /* Primary color when expanded */
+  color: #ffffff; /* White text when expanded */
+}
+
+.custom-accordion-item .accordion-button.collapsed {
+  background-color: #ffffff; /* White background when collapsed */
+  color: #387160; /* Primary color text when collapsed */
+  border: 1px solid #387160; /* Primary color border */
+}
+
+.custom-accordion-item .accordion-collapse {
+  border-top: 1px solid #C98B2E; /* Secondary color for the border between questions */
+}
+
+.custom-accordion-item .accordion-body {
+  background-color: #ffffff; /* White background for the answer */
+  color: #555; /* Dark gray text for the answer */
 }
 
 /*======================================
